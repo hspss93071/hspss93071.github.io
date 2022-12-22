@@ -1,0 +1,118 @@
+body{
+    
+    background-color: rgb(91, 88, 94);
+    display: flex;
+    
+  justify-content: center;
+}
+
+#container{ 
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: auto;
+  background-color: rgb(110, 103, 103);
+  box-shadow: 0 0 30px rgb(196, 199, 19);
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  
+  
+}
+
+
+h1{
+    font-size: 30%;
+    text-align: center;
+}
+
+#clock{
+    font-size: 80px;
+    
+}
+
+#hour{
+    font-size: 80px;
+    transition: all 1.5s;
+}
+#hour:hover{
+    font-size: 100px;
+    color: brown;
+    transition: all 1.5s;
+}
+
+
+
+#min{
+    font-size: 80px;
+    transition: all 1.5s;
+}
+#min:hover{
+    font-size: 100px;
+    color: brown;
+    transition: all 1.5s;
+}
+
+
+
+#sec{
+    font-size: 80px;
+    transition: all 1.5s;
+}
+#sec:hover{
+    font-size: 100px;
+    color: brown;
+    transition: all 1.5s;
+}
+
+
+input{
+    width: 15%;
+    height: 15%;
+    display: inline;
+    text-align: center;
+    font-size: large;
+    box-shadow: 0 0 10px rgb(108, 168, 39) inset;
+
+}
+
+
+
+button{
+    border-radius: 50%;
+    background-color: rgb(48, 146, 64);
+    display: inline-block;
+    font-size: large;
+    transition: all 1.3s;
+}
+
+#set:hover{
+    background-color: rgb(205, 240, 6);
+}
+#reset:hover{
+    background-color: rgb(167, 45, 45);
+}
+
+button:active{
+    position: relative;
+    top: 5px;
+}
+
+#start{
+    border-radius: 5%;
+    width: 50%;
+    height: 20%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top: 10%;
+
+}
+
+#start:hover{
+    background-color: rgb(45, 53, 167);
+}
+#start:active{
+    position: relative;
+    top: 15%;
+}
